@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:id="@+id/mainContent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" android:gravity="center"/>
+
+    <Button
+        android:id="@+id/manualButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HVAC Manual"/>
+
+    <Button
+        android:id="@+id/gameButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HVAC Game" />
+
+    <Button
+        android:id="@+id/simulatorButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Energy Consumption Simulator" />
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback" />
+
+</LinearLayout>
