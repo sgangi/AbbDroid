@@ -23,8 +23,9 @@ public class AbbDroidActivity extends Activity implements OnClickListener {
         setContentView(R.layout.main);
         
         manualButton = (Button) findViewById(R.id.manualButton);
-        
         manualButton.setOnClickListener(this);
+        feedbackButton = (Button) findViewById(R.id.feedbackButton);
+        feedbackButton.setOnClickListener(this);
         
     }
 
