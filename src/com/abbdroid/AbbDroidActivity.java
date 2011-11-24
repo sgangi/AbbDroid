@@ -32,7 +32,9 @@ public class AbbDroidActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		Log.d("StatusActivity", "onClick'd Manual Button");
-		setContentView(R.layout.manual);
+		if (v == this.manualButton){
+			Log.d("StatusActivity", "onClick'd Manual Button");
+			setContentView(R.layout.manual);
+		}
 	}
 }
